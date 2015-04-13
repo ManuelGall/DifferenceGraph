@@ -1,0 +1,12 @@
+
+
+
+Homepage:		http://emov-workshop.org/EMOV2015/WebHome
+
+Length:			10 Pages
+Guidlines:		LNCS (
+
+Submission:		May 10, 2015
+Notification:		Jun 10, 2015
+Camera-ready paper:	Jul 5, 2015
+Workshop:		Oct 19-22, 2015
