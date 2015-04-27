@@ -12,13 +12,8 @@
 \maketitle
 \begin{abstract}
 ...
-
 70-150 words
 \end{abstract}
-
-
-% DO 5
-% FR 6
 
 \section{Introduction}
 \label{sec:Introduction} % [1 Page]
@@ -57,13 +52,13 @@ For calculating the markings the first model is subtracted from the second one. 
 
 \begin{itemize}
 	\item \textbf{New}, a node/edge gains the marking New when the node/edge was added from Input1 to Input2.
-	\item \textbf{Positively changed}
+	\item \textbf{Positively changed}, a node/edge is marked as Positively changed when the weight has increased from Input1 to Input2.
 	\item \textbf{Unchanged}, a node/edge gains this marking when its value matches in both inputs.
-	\item \textbf{Negatively changed}
-	\item \textbf{Deleted}
+	\item \textbf{Negatively changed}, a node/edge is marked as Negatively changed when the weight has decreased from Input1 to Input2.
+	\item \textbf{Deleted}, a node/edge gains the marking Deleted when the node/edge was deleted from Input1 to Input2.
 \end{itemize}
 
-Hint the markings Positively changed and Negatively changed can not be calculated if the input process models do not consist weights.
+Hint the markings Positively changed and Negatively changed can not be calculated if the input process models do not consist of weights.
 
 Figure \ref{fig:DiffGraphCalculation} shows the results for subtracting Input2 from Input1 (Figure \ref{fig:ProcessModels}). Node B  was deleted from Input2 therefore, the marking deleted is applied the weight is calculated by subtracting 1 from 0 = -1. Node C was changed positively the weight has increased from 2 to 3.
 
@@ -80,7 +75,7 @@ The main  focus of this paper is how to visualize the difference graph. The idea
 
 A survey was conducted to secure a good understanding of the difference graph visualization. To do so a literature research with the goal to find different visualization approaches was executed. Our first step was to find relevant keywords addressing the topic of difference visualization where collected and used within search engines. This led to a wealth of papers which where used as a basis for snowballing method where on one side other relevant papers where collected and on the other side new keywords where extracted. From the collected papers nine visualization approaches where extracted.
 
-This section gave an overview about the fundamental process model which is the base for the difference graph model. We also showed how the difference graph model is calculated and which markings can be expressed on edges and nodes. For visualizing the model an appropriate style for markings has to be found which will be part of the next section.
+This section gave an overview about the fundamental process model which is the base for the difference graph model. We also showed how the difference graph model is calculated and which markings can be expressed on edges and nodes. For visualizing the model a appropriate styles for markings have to be found which will be part of the next section.
 
 \section{Evaluation} %  [5 Pages]
 \label{sec:Evaluation} % [1/2 Page]
@@ -93,7 +88,7 @@ To avoid massive scrolling and simplify navigation through the survey it is divi
 
 The introduction gives an example how the difference graph is calculated and ask the user a question specific to this example. This question allows to check if the user understood the example or not. Further questions on the introduction page check the attendees knowledge about graphs.
 
-Following the introduction are the styles for visualizing the difference graph. Each style is presented on a single page and consists of two main questions. A question to rate the expressiveness of the style and a question to assign markings to each node and edge. Assigning markings to nodes and edges will allow to check for intuitive understanding of the style.
+Following the introduction are the visualizations for the difference graph. Each visualization consists of five different styles. For example the visualization color coding consists of the styles green, blue, black, orange and red. Each of this visualizations is presented on a single page and consists of two questions. A question to rate the expressiveness of the visualization and a question for intuitive understanding. The question for intuitive understanding asks the user to determine which style represents which marking. For example, the visualization shows a node which is colored red and the user has to select one of the five markings mentioned earlier in this paper.
 
 In the advanced/demographic section we first ask the attendee to rank the styles according to their expressiveness. Ranking the styles after seeing all of them allows additional evaluations. Additional questions from this section are, for example, if edges and nodes should be represented with the same style or if the style of the difference graph should be determined by the size of the graph. The survey concludes with demographic questions e.g. age, gender, employment.
 
@@ -104,36 +99,32 @@ After finalizing the surveys design a two-sided pretest was conducted.
 
 In the first pretest a discussion with two people took place where the overall question and answer wording was adapted to support the users understanding.
 
-In our second pretest five people had to complete the survey and give advices what should be changed. During their survey they where encouraged to think loud and ask questions.  
+In our second pretest five attendees had to complete the survey and give advices what should be changed. During their survey they where encouraged to think loud and ask questions. All their questions and comments where noted and analyzed after the pretest. After finishing the second pretests minor changes to answers where made. This changes should secure a better understanding and reduce the surveys duration.
+
+After finishing the pretests the URL to the survey was distributed by E-Mail to 159 people working in companies and studying in universities. Additionally the URL was posted on Facebook addressing students. Overall 103 attendees opened the survey from whom 31 attendees finished.
 
 
-
-Following the pretest, the actual survey was started by 73 participants from which 31 where completed.
-
-\subsection{Results} % [3 Page2]
+\subsection{Results and Discussion} % [3 Pages]
 \label{sec:Results}
+In this section we focus on the results of the survey. First we show the results to side topics followed by the results to our main research question.
 
-The results should focus on the styles,
-
-
+Before we go into details which representation should be used for the difference graph we want to show that the difference graph can be understood by novices as well as experienced persons. In our survey overall 61.3 \% of the attendees understood the concept by the very first example. Another analysis shows that astonishing 73.6 \% attendees with fundamental graph knowledge understood the example. In contrast, only 41.6 \% of the attendees without graph knowledge understood the example. This analysis shows that the concept can be understood within one example, however it is more likely to be understood by people which are familiar with the concept of graphs.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{Images/Results.PNG}
+	\includegraphics[width=350px]{Images/Results.PNG}
 	\caption{SurveyResults}
 	\label{fig:SurveyResults}
 \end{figure}
 
-Other results which should be shown are:
-Understood the introduction? (answered the question correctly)
-if edges and nodes should be represented with the same style?
+To find the best suiting representation we analyze the intuitive understanding and the ranking for each style. The intuitive understanding is important to allow users to gain an overview of the visualization without the need to look which marking is represented by which style. The goal is to find a visualization where each style can be intuitively allocated to a marking.
 
+Figure \ref{fig:SurveyResults}.1 shows a list of the top three visualizations in terms of intuitive understanding. On top of the list is the visualization "Symbols" followed by "Color coding" and "Background color". Symbols range from 27 to 29 with a mean value of 27,6. Means 27.6 attendees assigned the same marking to those symbols. For example the green tick was assigned by 27 attendees as marking "New". Color coding has a mean value of 25,4 and "Background color" of 23,6.
 
-Diff. Evaluations:
-Intuitive understanding
 Ranking
 
 
+Interpretation/Discussion:
 
 Summary:
 Why we think color-Coding should be used.
@@ -144,6 +135,10 @@ Why we think color-Coding should be used.
 	\caption{Final Representation of the Differencegraph}
 	\label{fig:DiffGraphVisualization}
 \end{figure}
+
+Figure \ref{fig:DiffGraphVisualization} shows an example how the final representation can look. The figure shows the graph which was calculated in the previous example with applied color coding.
+
+
 
 \section{Applications}  % [1/2 Pages]
 \label{sec:Applications}
