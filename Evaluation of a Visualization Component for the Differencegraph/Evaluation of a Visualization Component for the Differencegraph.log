@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.24)  8 APR 2015 15:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.24)  27 APR 2015 09:51
 entering extended mode
 **Evaluation*of*a*Visualization*Component*for*the*Differencegraph.tex
 
-("C:\Users\Manuell Gall\Documents\Paper\Evaluation of a Visualization Component for the Differencegraph\Evaluation of a 
-Visualization Component for the Differencegraph.tex"
+("C:\Users\Manuell Gall\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph
+\Evaluation of a Visualization Component for the Differencegraph.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
 , bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
@@ -12,7 +12,9 @@ ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, 
 -x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
 ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
 elsh, loaded.
-("C:\Users\Manuell Gall\Documents\Paper\Evaluation of a Visualization Component for the Differencegraph\llncs.cls"
+
+("C:\Users\Manuell Gall\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph
+\llncs.cls"
 Document Class: llncs 2013/09/27 v2.18 
  LaTeX document class for Lecture Notes in Computer Science
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -386,8 +388,8 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\Manuell Gall\Documents\Paper\Evaluation of a Visualization Component for the Differencegraph\Evaluation of a 
-Visualization Component for the Differencegraph.aux")
+("C:\Users\Manuell Gall\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph
+\Evaluation of a Visualization Component for the Differencegraph.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -419,35 +421,51 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 12.
- <Images/ColorCodedGraph.PNG, id=1, 405.01312pt x 140.02313pt>
-File: Images/ColorCodedGraph.PNG Graphic file (type png)
- <use Images/ColorCodedGraph.PNG>
-Package pdftex.def Info: Images/ColorCodedGraph.PNG used on input line 65.
-(pdftex.def)             Requested size: 277.69987pt x 96.00926pt.
  [1
 
 {C:/Users/Manuell Gall/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("C:\Users\Manuell Gall\Documents\Paper\Evaluation of a Visualization Component for the Differencegraph\Evaluation of a 
-Visualization Component for the Differencegraph.bbl") [2 <C:/Users/Manuell Gall/Documents/Paper/Evaluation of a Visualiz
-ation Component for the Differencegraph/Images/ColorCodedGraph.PNG>]
-("C:\Users\Manuell Gall\Documents\Paper\Evaluation of a Visualization Component for the Differencegraph\Evaluation of a 
-Visualization Component for the Differencegraph.aux") ) 
+<Images/ProcessModels.PNG, id=9, 502.12593pt x 129.48375pt>
+File: Images/ProcessModels.PNG Graphic file (type png)
+ <use Images/ProcessModels.PNG>
+Package pdftex.def Info: Images/ProcessModels.PNG used on input line 45.
+(pdftex.def)             Requested size: 277.69987pt x 71.61339pt.
+
+<Images/ResultGraph.PNG, id=11, 405.01312pt x 140.02313pt>
+File: Images/ResultGraph.PNG Graphic file (type png)
+ <use Images/ResultGraph.PNG>
+Package pdftex.def Info: Images/ResultGraph.PNG used on input line 70.
+(pdftex.def)             Requested size: 277.69987pt x 96.00926pt.
+ [2 <C:/Users/Manuell Gall/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegr
+aph/Images/ProcessModels.PNG>]
+[3 <C:/Users/Manuell Gall/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegra
+ph/Images/ResultGraph.PNG>] <Images/ColorCodedGraph.PNG, id=21, 405.01312pt x 140.02313pt>
+File: Images/ColorCodedGraph.PNG Graphic file (type png)
+
+<use Images/ColorCodedGraph.PNG>
+Package pdftex.def Info: Images/ColorCodedGraph.PNG used on input line 132.
+(pdftex.def)             Requested size: 277.69987pt x 96.00926pt.
+ [4]
+("C:\Users\Manuell Gall\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph
+\Evaluation of a Visualization Component for the Differencegraph.bbl") [5 <C:/Users/Manuell Gall/Documents/GitHub/Differ
+enceGraph/Evaluation of a Visualization Component for the Differencegraph/Images/ColorCodedGraph.PNG>]
+("C:\Users\Manuell Gall\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph
+\Evaluation of a Visualization Component for the Differencegraph.aux") ) 
 Here is how much of TeX's memory you used:
- 1814 strings out of 493921
- 24401 string characters out of 3144855
- 81977 words of memory out of 3000000
- 5116 multiletter control sequences out of 15000+200000
+ 1826 strings out of 493921
+ 24887 string characters out of 3144855
+ 82993 words of memory out of 3000000
+ 5126 multiletter control sequences out of 15000+200000
  6110 words of font info for 22 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,5n,21p,399b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on "Evaluation of a Visualization Component for the Differencegraph.pdf" (2 pages, 135136 bytes).
+ 29i,5n,21p,726b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on "Evaluation of a Visualization Component for the Differencegraph.pdf" (5 pages, 187700 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

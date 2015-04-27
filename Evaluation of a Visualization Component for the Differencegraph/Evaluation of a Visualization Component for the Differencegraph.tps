@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=589
+NormalPos.right=625
 NormalPos.bottom=541
 Class=LaTeXView
 Document=Evaluation of a Visualization Component for the Differencegraph.tex
 
 [Frame0_View0,0]
-TopLine=9
-Cursor=529
+TopLine=136
+Cursor=2438
 
 [SessionInfo]
 FrameCount=1
