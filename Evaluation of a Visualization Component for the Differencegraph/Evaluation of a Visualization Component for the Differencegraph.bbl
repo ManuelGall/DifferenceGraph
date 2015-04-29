@@ -1,10 +1,55 @@
 \begin{thebibliography}{1}
 
 \bibitem{lit:VisuApprDiffAnalysis}
-Simone Kriglstein, Günter Wallner, and Stefanie Rinderle-Ma.
+S.~Kriglstein, G.~Wallner, and S.~Rinderle-Ma.
 \newblock A visualization approach for difference analysis of process models
   and instance traffic.
 \newblock In {\em Business Process Management}, volume 8094 of {\em Lecture
   Notes in Computer Science}, pages 219--226. Springer Berlin Heidelberg, 2013.
+
+\bibitem{lit:Petrinet}
+T.~Murata.
+\newblock Petri nets: Properties, analysis and applications.
+\newblock {\em Proceedings of the IEEE}, 77(4):541--580, Apr 1989.
+
+\bibitem{lit:ConformanceCheckingOfProcesses}
+A.~Rozinat and W.M.P. van~der Aalst.
+\newblock Conformance checking of processes based on monitoring real behavior.
+\newblock {\em Information Systems}, 33(1):64 -- 95, 2008.
+
+\bibitem{lit:UML}
+J.~Rumbaugh, I.~Jacobson, and G.~Booch.
+\newblock {\em Unified Modeling Language Reference Manual, The (2Nd Edition)}.
+\newblock Pearson Higher Education, 2004.
+
+\bibitem{lit:EPC}
+W.M.P. van~der Aalst.
+\newblock Formalization and verification of event-driven process chains.
+\newblock {\em Information and Software Technology}, 41(10):639 -- 650, 1999.
+
+\bibitem{lit:PMDiscoveryConformanceEnhancement}
+W.M.P. van~der Aalst.
+\newblock {\em Process mining: discovery, conformance and enhancement of
+  business processes}.
+\newblock Springer Science \& Business Media, 2011.
+
+\bibitem{lit:BusinnessProcessMiningAnIndustrialAppliction}
+W.M.P. van~der Aalst, H.A. Reijers, A.J.M.M. Weijters, B.F. van Dongen,
+  A.K.~Alves de~Medeiros, M.~Song, and H.M.W. Verbeek.
+\newblock Business process mining: An industrial application.
+\newblock {\em Information Systems}, 32(5):713 -- 732, 2007.
+
+\bibitem{lit:YAWL}
+W.M.P. van~der Aalst and A.H.M. ter Hofstede.
+\newblock Yawl: yet another workflow language.
+\newblock {\em Information Systems}, 30(4):245 -- 275, 2005.
+
+\bibitem{lit:ProMFramework}
+B.F. van Dongen, A.K.A. de~Medeiros, H.M.W. Verbeek, A.J.M.M. Weijters, and
+  W.M.P. van~der Aalst.
+\newblock The prom framework: A new era in process mining tool support.
+\newblock In {\em Applications and Theory of Petri Nets 2005}, volume 3536 of
+  {\em Lecture Notes in Computer Science}, pages 444--454. Springer Berlin
+  Heidelberg, 2005.
 
 \end{thebibliography}
