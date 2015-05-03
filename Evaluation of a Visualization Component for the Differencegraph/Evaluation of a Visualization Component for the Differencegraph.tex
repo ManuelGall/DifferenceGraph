@@ -6,24 +6,42 @@
 
 \begin{document}
 
+<<<<<<< HEAD
 %\title{Evaluation of a Visualization Component for the Difference Graph}
 \title{A User Evaluation of Different Visual Representations for Visualizing Differences in Process Models}
 
+=======
+\title{Evaluation of a Visualization Component for the Difference Graph}
+>>>>>>> origin/master
 \author{Firstname Lastname \and Firstname Lastname}
 \institute{Universit\"at Wien \\ W\"ahringer Strasse 29 \\ 1090 Wien}
 \maketitle
 
 \begin{abstract}
+<<<<<<< HEAD
 Finding differences between two processes can be a complex, time consuming, and expensive task. Our work is based on the difference graph approach which calculates the differences between two process models. In this paper we evaluate different possibilities for visualizing these differences. For this purpose we have selected some common visual elements such as color, font size, and line stippling and evaluated these different representations with 31 participants through an online survey. Our results show that color coding was the preferred method of the participants for depicting difference in a graph visualization.
 \end{abstract}
 
 \begin{keywords}
 	Difference Graph, Visualization, Processes, Process Model
+=======
+Finding differences between two processes can be a complex, time consuming and expensive task. Our work is based on the difference graph which calculates the differences of two process models. We want to extend the model with and expressive visualization to show where differences can be found. In order to find the best suiting visualization we extracted several visualizations from literature. These visualization were the foundation of an evaluation. The result showed that color coding suits the difference graph visualization best.
+\end{abstract}
+
+\begin{keywords}
+	Difference Graph, Visualization
+>>>>>>> origin/master
 \end{keywords}
+
+
+%Todo:
+% Update Images -> Resolution, Font and Visuals
+% Read everything
 
 \section{Introduction}
 \label{sec:Introduction} % [1 Page]
 
+<<<<<<< HEAD
 Processes are an indispensable part of today's businesses. From visualizing processes for communication, up to optimization companies constantly use processes to gain additional business intelligence.
 
 %What is the problem / how is it solve by now
@@ -43,13 +61,45 @@ The remainder of this paper is structured as follows. Section 2 gives an overvie
 %Current process mining methods are able to check for compliance (check rule violation while or after the process is executed) and conformance (compare a log with a process model).
 %In some cases it is not useful to compare real world process logs with handcrafted process models. What if two real world processes should be compared?
 %This question answer \cite{lit:VisuApprDiffAnalysis} with the introduction of their difference graph model. They presented the model and essential parts for calculation. However they do not evaluate how to visualize this model. Visualizing data is a very important task to enhance the users understanding of the data.
+=======
+Processes are an indispensable part of today’s business. From visualizing processes for communication, up to optimization we constantly use processes to gain additional business intelligence.
+
+%What is the problem / how is it solve by now
+Using process mining algorithms on data collected during process execution allows further analysis \cite{lit:PMDiscoveryConformanceEnhancement}, for example, detection of bottlenecks, problems and violations. Conformance checking \cite{lit:ConformanceCheckingOfProcesses} is a part of process mining which allows to check if a log file deviates from a process model. Unfortunately conformance checking focuses only on detection of deviations between log files and process models. With their paper \cite{lit:VisuApprDiffAnalysis} introduced the difference graph which allows to check for differences between two process models. These models can be generated through process mining or even crafted by hand. 
+However they do not evaluate how to visualize the difference model. Visualizing data is a very important task to enhance the users understanding of the data. 
+
+%Contribution
+In this work we investigate the following research question: Which visualization suites the difference graph best? To answer this we conduct a literature research to find different representations. Afterwards we use a survey to evaluate which of the found visualizations should be used for representing the difference graph.
+
+%Applications
+Difference calculation and visualization can be used in different areas of application. One is to compare process models generated with process mining techniques from two processes. This helps finding deviations between those processes. For example, a company with two locations executes the same task. Unfortunately in one location the execution takes twice the time. Comparing the process models of these locations can help finding why the execution time is doubled. When comparing two process models one can although gain additional information if those processes can be merged. Finding deviation allows to determine where problems may occur. Another area of application is to use one process at different points in time. For example, compare the years 2013 and 2014 of one process. This allows to see how the process has evolved.
+
+%Section overview
+In Section 2 we give an overview of the difference graph model and calculation. As well as an outline why the visualization is important. To select an appropriate visualization Section 3 covers our evaluation process. Related work can be found in Section 4. Section 5 concludes this paper with a reference where future work can be done.
 
 
+>>>>>>> origin/master
+
+%\textit{Literature to solve this problem}
+%Current process mining methods are able to check for compliance (check rule violation while or after the process is executed) and conformance (compare a log with a process model).
+%In some cases it is not useful to compare real world process logs with handcrafted process models. What if two real world processes should be compared?
+%This question answer \cite{lit:VisuApprDiffAnalysis} with the introduction of their difference graph model. They presented the model and essential parts for calculation. However they do not evaluate how to visualize this model. Visualizing data is a very important task to enhance the users understanding of the data.
+
+<<<<<<< HEAD
 \section{Difference Graph Model and Visualization} % [2 Pages]
 \label{sec:DiffgraphModel}
 The difference graph concept~\cite{lit:VisuApprDiffAnalysis} consists of two parts: the model and the visualization of the model. In this section we will first describe the difference model and then focus on visualizing this model.
 
 Elementary component for the difference graph model is a process model. Following~\cite{lit:VisuApprDiffAnalysis} a process model can be viewed as a directed connected graph $PM = (N, E \subseteq N \times N)$ where $N$ is a set of nodes and $E$ is a set of directed control edges. Each node has a unique identifier, a label, and a type (e.g., activity, event, or gateway node). Optionally, nodes and edges may have weights assigned which represent the instance traffic. Instance traffic measures how often a specific activity is executed in real world. A process model consists of one start node which has no incoming edges and one end node which has no outgoing edges. Except from start and end node each node is connected by at least one incoming and outgoing edge. Every node has to be on a path between start and end node. As an example, Figure~\ref{fig:ProcessModels} shows two versions of a process model. When visually comparing these two variants one can observe that, for example, that $B$ has been deleted from the right model while a new node $E$ has been added. However, with increasing size of the model, manually finding the differences and commonalities can become increasingly cumbersome and time-consuming.
+=======
+
+\section{Difference Graph Model and Visualization} % [2 Pages]
+\label{sec:DiffgraphModel}
+The difference graph concept \cite{lit:VisuApprDiffAnalysis} consists of two parts one is the model and the other is the visualization of this model. In this section we will  first describe the difference model and then take a journey towards visualizing this model.
+
+Elementary component for the difference graph model is a process model. According to \cite{lit:VisuApprDiffAnalysis} a process model is defined as a direct connected graph \textit{PM} = (\textit{N}, \textit{E} $\subseteq$ \textit{N} $\times$ \textit{N}). \textit{PM} consist of nodes \textit{N} and direct control edges \textit{E}. Each node consists of an unique identifier, label and a type.
+The process model consists of one start node which has no incoming edges and one end node which has no outgoing edges. Except from start and end node each node is connected by at least one incoming and outgoing edge. Every node has to be on a path between start and end node. Figure \ref{fig:ProcessModels} shows two process models. Input1 consists of four weighted edges and four labeled nodes. Input2 consists of three edges and although four labeled nodes. Interesting examples for difference calculation of these two inputs are node C where the weight has increase from 2 to 3, node B and E which are only visible in one of the inputs.
+>>>>>>> origin/master
 
 \begin{figure}
 	\centering
@@ -60,6 +110,7 @@ Elementary component for the difference graph model is a process model. Followin
 
 For generating the difference graph two process models are needed. These models can be described in many different process modeling languages, for example, Petri Nets~\cite{lit:Petrinet}, UML~\cite{lit:UML}, EPC~\cite{lit:EPC}. Generally, all languages which allow to view a process as (weighted) directed graph can be used for the difference graph calculation. For this purpose, the method takes two graphs as input, in the following referred to as $PM_1$ and $PM_2$, and generates a new graph $PM_2 - PM_1$ with markings associated with its nodes and edges (for an in-depth discussion see~\cite{lit:VisuApprDiffAnalysis}). The following list shows the different markings and describes in which case these markings are assigned.
 
+<<<<<<< HEAD
 \begin{description}
 	\item[\textsc{New}] a node/edge is marked as \textsc{New} if the node/edge was added from $PM_1$ to $PM_2$.
 	\item[\textsc{Positively changed}] a node/edge is marked as \textsc{Positively changed} when the weight has increased from $PM_1$ to $PM_2$.
@@ -67,20 +118,53 @@ For generating the difference graph two process models are needed. These models 
 	\item[\textsc{Negatively changed}] a node/edge is marked as \textsc{Negatively changed} when the weight has decreased in $PM_2$.
 	\item[\textsc{Deleted}] a node/edge is mark as \textsc{Deleted} if the node/edge was deleted from $PM_2$.
 \end{description}
+=======
+For generating the difference graph two process models are needed. These models can be described in many different process modeling languages e.g. Petri Nets \cite{lit:Petrinet}, UML \cite{lit:UML}, EPC \cite{lit:EPC}. All of those languages which are conform to the above mentioned process model description can be used for the difference graph calculation. From both input process models the difference graph model is calculated. This model extends a process model with an element called marking. The marking is applied on edges and nodes and is generated during the calculation process.
+>>>>>>> origin/master
 
 As a side note it should me emphasized that the markings are only used if the input models have weights assigned to nodes and edges.
 
+<<<<<<< HEAD
 Figure~\ref{fig:DiffGraphCalculation} shows the resulting graph when the left model in Figure~\ref{fig:ProcessModels} is subtracted from the right model. For example, Node $B$ was deleted from $PM_2$ and therefore is marked as \textsc{deleted} while the weight of node $C$ has increased from 2 to 3 and thus $C$ has been marked as \textsc{Positively changed}. 
+=======
+For calculating the markings the first model is subtracted from the second one. During the calculation three or five different markings can be generated. Five markings can be calculated if the input process models consist of weights. If not, only three markings can be calculated. The following list shows all five markings and gives a description in which case they are used. 
+
+\begin{itemize}
+	\item \textbf{New}, a node/edge gains the marking New when the node/edge was added from Input1 to Input2.
+	\item \textbf{Positively changed}, a node/edge is marked as Positively changed when the weight has increased from Input1 to Input2.
+	\item \textbf{Unchanged}, a node/edge gains this marking when its value matches in both inputs.
+	\item \textbf{Negatively changed}, a node/edge is marked as Negatively changed when the weight has decreased from Input1 to Input2.
+	\item \textbf{Deleted}, a node/edge gains the marking Deleted when the node/edge was deleted from Input1 to Input2.
+\end{itemize}
+
+Hint the markings positively changed and negatively changed can not be calculated if the input process models do not consist of weights.
+
+Figure \ref{fig:DiffGraphCalculation} shows the results for subtracting Input2 from Input1 which were shown in Figure \ref{fig:ProcessModels}. Node B  was deleted from Input2 therefore, the marking deleted is applied the weight is calculated by subtracting 1 from 0 = -1. Node C was changed positively the weight has increased from 2 to 3.
+>>>>>>> origin/master
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{Images/ResultGraph.PNG}
+<<<<<<< HEAD
 	\caption{Calculating the differences from Figure~\ref{fig:ProcessModels} leads to this difference graph. On top of each edge and node calculated weights and applied markings are shown.}
 	\label{fig:DiffGraphCalculation}
 \end{figure}
 
 The main focus of this paper is how to best visualize the difference graph to promote an effective interpretation by users. The basic idea is to depict the various markings differently, for example, by using icons or color-coding. To do so we conducted an evaluation which is shown in the next section.
 
+=======
+	\caption{Calculating the differences from Figure \ref{fig:ProcessModels} leads to this difference graph. On top of each edge and node calculated weights and applied markings are shown.
+	%TODO: change all colors to Black and state on top of each node and edge which marking is applied. This will lead to the following: first the reader sees the two inputs, then he/she sees the calculation and later on in the evaluation he/she sees how this markings which are stated here with text are visualized.
+	}
+	\label{fig:DiffGraphCalculation}
+\end{figure}
+
+The main  focus of this paper is how to visualize the difference graph. The idea behind the visualization of the difference graph is to represent each of the markings with different styles. For example, each marking can be mapped to represent a specific symbol. This symbol can then be visualized on nodes and edges.
+
+A survey was conducted to secure a good understanding of the difference graph visualization. To do so a literature research with the goal to find different visualization approaches was executed. Our first step was to find relevant keywords addressing the topic of difference visualization. These keywords where used within search engines. This led to a wealth of papers which where used as a basis for snowballing method where on one side other relevant papers where collected and on the other side new keywords where extracted. From all collected papers we were able to extract nine visualization approaches. These nine approaches were used in our evaluation.
+
+This section gave an overview about the fundamental process model which is the base for the difference graph model. We showed how the difference graph model is calculated and which markings can be expressed on edges and nodes. For visualizing the model an appropriate style for markings has to be found which will be part of the next section.
+>>>>>>> origin/master
 
 \section{Evaluation} %  [5 Pages]
 \label{sec:Evaluation} % [1/2 Page]
@@ -122,7 +206,13 @@ In order to identify different visual possibilities to distinguish between diffe
 
 \subsection{Design} % [1/2 Page]
 \label{sec:Design}
+<<<<<<< HEAD
 To avoid massive scrolling and simplify navigation through the survey we used single pages. Single pages come with the advantage that on each commit of a page we are able to validate the answers and give hints to the user where answers are missing. Overall the survey was divided into three groups: introduction, styles, and advanced/demographic questions.
+=======
+To avoid massive scrolling and simplify navigation through the survey we used single pages. Single pages come with the advantage that on each commit of a page we are able to validate the answers and give hints to the user where answers are missing. Overall the survey is divided into three groups introduction, styles and advanced/demographic questions.
+
+The introduction gives an example how the difference graph is calculated and asks the user a question specific to this example. This question allows to check if the user understood the example or not. Further questions on the introduction page check the attendees knowledge about graphs.
+>>>>>>> origin/master
 
 The introduction gave an example how the difference graph is calculated and contained a question specific to this example to verify if the participant has understood the difference graph concept or not. Further questions on the introduction page asked about knowledge about graphs.  
 
@@ -133,7 +223,15 @@ In the advanced/demographic section we asked the participants to rank the visual
 \subsection{Procedure} % [1/2 Page]
 \label{sec:Procedure}
 
+<<<<<<< HEAD
 First, a two-stage pretest to validate the design of the survey was conducted to ensure the questionnaire is understandable and time required to complete the survey is adequate. In the first pretest a discussion with two people took place to asses the wording of the questionnaire. After changing the survey the user feedback a second pretest with five participants was conducted. During their survey they where encouraged to think aloud, to ask questions, and to provide feedback for possible improvements. All their questions and comments where noted and analyzed after the pretest. After finishing the second pretest minor changes to the questions were made. 
+=======
+In the first pretest a discussion with two people took place where the overall question and answer wording was adapted to support the users understanding.
+
+In our second pretest five attendees had to complete the survey and give advices what should be changed. During their survey they where encouraged to think aloud and ask questions. All their questions and comments where noted and analyzed after the pretest. After finishing the second pretests minor changes to answers where made. This changes should secure a better understanding and reduce the surveys duration.
+
+After finishing the pretests the URL to the survey was distributed by E-Mail to 159 people working in companies and studying in universities. Additionally the URL was posted on Facebook addressing students. Overall 103 attendees opened the survey from whom 31 attendees finished.
+>>>>>>> origin/master
 
 After finishing the two pretests the link to the survey was distributed by e-mail to 159 company employees and students. Additionally the link was posted on Facebook addressing students on an private group initiated from and for business informatics students with 537 likes. Overall 73 attendees started the survey from whom 31 attendees finished. Incomplete surveys were excluded from our analysis. In the end, we received 31 complete responses.
 
@@ -192,18 +290,29 @@ Figure~\ref{fig:DiffGraphVisualization} shows an example how the final represent
 \section{Related Work}  % [1/2 Page]
 \label{sec:RelatedWork}
 
+<<<<<<< HEAD
 Conformance checking~\cite{lit:ConformanceCheckingOfProcesses} is a part of process mining~\cite{lit:PMDiscoveryConformanceEnhancement,lit:BusinnessProcessMiningAnIndustrialAppliction} which deals with detection of inconsistencies between a process model and a log file. Conformance checking lacks of the possibility to compare two process models generated from log files. Kriglstein et al.~\cite{lit:VisuApprDiffAnalysis} proposed the difference graph concept where instance traffic of two processes is compared. They implemented a prototype where differences are visualized through color coding. They did not evaluate if color coding is a suitable option for visualizing differences within process models.
 
 One of the first visualization approaches for process models where Petri Nets~\cite{lit:Petrinet}. Since then many different languages emerged~\cite{lit:UML,lit:EPC,lit:YAWL}. From process mining perspective the topic of visualization has also been addressed in~\cite{lit:ProMFramework}. For the difference graph we need to show one process model which visualizes the differences of two process models. Therefore we extend previous work in this field by evaluating how differences can be visualized within process models.
+=======
+Conformance checking \cite{lit:ConformanceCheckingOfProcesses} is a part of process mining \cite{lit:BusinnessProcessMiningAnIndustrialAppliction,lit:PMDiscoveryConformanceEnhancement} which deals with detection of inconsistencies between a process model and a log file. Conformance checking lacks of the possibility to compare two process models generated from log files. \cite{lit:VisuApprDiffAnalysis} proposed the difference graph concept where instance traffic of two processes is compared. They implemented a prototype where differences are visualized through color coding. They did not evaluate if color coding is a suitable option for visualizing differences within process models.
+
+One of the first visualization approaches for process models where Petri Nets \cite{lit:Petrinet}. Since then many different languages emerged \cite{lit:YAWL,lit:UML,lit:EPC}. From process mining perspective the topic of visualization has also been addressed in \cite{lit:ProMFramework}. For the difference graph we need to show one process model which visualizes the differences of two process models. Therefore we extend previous work in this field by evaluating how differences can be visualized within process models.
+>>>>>>> origin/master
 
 \section{Conclusion} %  [1/2 Page]
 \label{sec:Conclusion}
 In our work we combine the difference graph concept with a visualization component. In the concept paper for the difference graph, color coding was mentioned as the preferred method for visualization. In our survey color coding was one of nine styles which can be used for difference visualization. Our evaluation confirmed there thoughts and showed that color coding is the best method for visualizing differences between two process models. To support the users intuitive understanding we suggest to use a legend which states the meaning of each color.
 
+<<<<<<< HEAD
 With these results in hand a prototype implementation of the difference graph concept enhanced with color coding was implemented within the ProM framework. The plug in is currently available in the nightly build of ProM.
 
 The color coded visualization is not limited to only show differences between two process models. Color coding can be applied to show differences in many scenarios. For example, conformance and compliance checking which both in some way try to find differences.
 
+=======
+The color coded visualization is not limited to only show differences between two process models. Color coding can be applied to show differences in many scenarios. For example, conformance and compliance checking which both in some way try to find differences.
+
+>>>>>>> origin/master
 Future work in terms of visualization can be done in several areas. Process models often allow clustering but how does clustering affect the color coded visualization? Our approach only visualizes differences between two models. Therefore another interesting topic would be the visualization of process evolution. 
 
 \bibliography{Literature}
