@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.3)  3 MAY 2015 19:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.3)  4 MAY 2015 15:12
 entering extended mode
 **Evaluation*of*a*Visualization*Component*for*the*Differencegraph.tex
 
@@ -182,18 +182,18 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 ("C:\Users\Manuel\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph\Evalu
 ation of a Visualization Component for the Differencegraph.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 (C:\Users\Manuel\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -210,127 +210,138 @@ LaTeX Font Info:    ... okay on input line 7.
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
+(Font)              <7> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
- [1
+(Font)              <5> on input line 11.
+
+Overfull \hbox (1.00117pt too wide) in paragraph at lines 18--20
+\T1/cmr/bx/n/10 Keywords:\T1/cmr/m/n/10 Difference Graph, Vi-su-al-iza-tion, Pro-cess Dif-fer-ences, Pro-cess Model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+[1
 
 {C:/Users/Manuel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 <Images/ProcessModels.PNG, id=11, 284.5029pt x 66.36795pt>
 File: Images/ProcessModels.PNG Graphic file (type png)
  <use Images/ProcessModels.PNG>
-Package pdftex.def Info: Images/ProcessModels.PNG used on input line 56.
+Package pdftex.def Info: Images/ProcessModels.PNG used on input line 53.
 (pdftex.def)             Requested size: 277.69987pt x 64.78087pt.
  [2]
-Overfull \hbox (1.45453pt too wide) in paragraph at lines 65--66
-[]\T1/cmr/m/n/10 a node/edge is marked as \T1/cmr/m/sc/10 Pos-i-tively changed \T1/cmr/m/n/10 when
- []
-
 <Images/ResultGraph.PNG, id=19, 284.5029pt x 60.34544pt>
 File: Images/ResultGraph.PNG Graphic file (type png)
  <use Images/ResultGraph.PNG>
-Package pdftex.def Info: Images/ResultGraph.PNG used on input line 77.
+Package pdftex.def Info: Images/ResultGraph.PNG used on input line 74.
 (pdftex.def)             Requested size: 277.69987pt x 58.90239pt.
  [3 <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegraph/Im
 ages/ProcessModels.PNG> <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for th
 e Differencegraph/Images/ResultGraph.PNG>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 95.
+(Font)              <9> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 95.
+(Font)              <6> on input line 92.
 
-Underfull \hbox (badness 2245) in paragraph at lines 97--97
+Underfull \hbox (badness 2245) in paragraph at lines 94--94
 []\T1/cmr/m/n/9 Calculate graph-i-cal dif-fer-
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 97--98
+Underfull \hbox (badness 4229) in paragraph at lines 94--95
 []\T1/cmr/m/n/9 Matrix dif-fer-ence cal-cu-la-
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 103--103
+Underfull \hbox (badness 5832) in paragraph at lines 100--100
 []\T1/cmr/m/n/9 Structural dif-fer-ences be-
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 105--105
+Underfull \hbox (badness 1019) in paragraph at lines 102--102
 []\T1/cmr/m/n/9 Visualizing Dif-fer-ences be-
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 107--107
+Underfull \hbox (badness 1199) in paragraph at lines 104--104
 []\T1/cmr/m/n/9 Graph evo-lu-tion vi-su-al-iza-
  []
 
 
-Overfull \hbox (2.70949pt too wide) in paragraph at lines 95--111
+Overfull \hbox (2.70949pt too wide) in paragraph at lines 92--108
  [][] 
  []
 
 <Images/Overview.PNG, id=25, 284.5029pt x 301.125pt>
 File: Images/Overview.PNG Graphic file (type png)
  <use Images/Overview.PNG>
-Package pdftex.def Info: Images/Overview.PNG used on input line 117.
+Package pdftex.def Info: Images/Overview.PNG used on input line 114.
 (pdftex.def)             Requested size: 351.31378pt x 371.83809pt.
 
-Overfull \hbox (4.19025pt too wide) in paragraph at lines 117--118
+Overfull \hbox (4.19025pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
 [4] [5 <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegraph
-/Images/Overview.PNG>] [6] <Images/Results.PNG, id=36, 284.5029pt x 66.36795pt>
-File: Images/Results.PNG Graphic file (type png)
- <use Images/Results.PNG>
-Package pdftex.def Info: Images/Results.PNG used on input line 167.
-(pdftex.def)             Requested size: 351.31378pt x 81.95308pt.
+/Images/Overview.PNG>] [6] <Images/IntuitiveUnderstanding.PNG, id=36, 284.5029pt x 108.405pt>
+File: Images/IntuitiveUnderstanding.PNG Graphic file (type png)
 
-Overfull \hbox (4.19025pt too wide) in paragraph at lines 167--168
+<use Images/IntuitiveUnderstanding.PNG>
+Package pdftex.def Info: Images/IntuitiveUnderstanding.PNG used on input line 148.
+(pdftex.def)             Requested size: 351.31378pt x 133.8617pt.
+
+Overfull \hbox (4.19025pt too wide) in paragraph at lines 148--149
  [][] 
  []
 
+<Images/Ranking_Mean_StDeviation.PNG, id=37, 284.5029pt x 174.6525pt>
+File: Images/Ranking_Mean_StDeviation.PNG Graphic file (type png)
+ <use Images/Ranking_Mean_StDeviation.PNG>
+Package pdftex.def Info: Images/Ranking_Mean_StDeviation.PNG used on input line 158.
+(pdftex.def)             Requested size: 351.31378pt x 215.66609pt.
 
-Underfull \vbox (badness 7685) has occurred while \output is active []
+Overfull \hbox (4.19025pt too wide) in paragraph at lines 158--159
+ [][] 
+ []
 
- [7 <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegraph/Im
-ages/Results.PNG>]
-<Images/ColorCodedGraph.PNG, id=41, 284.5029pt x 60.34544pt>
+[7 <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegraph/Ima
+ges/IntuitiveUnderstanding.PNG>] [8 <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Comp
+onent for the Differencegraph/Images/Ranking_Mean_StDeviation.PNG>]
+<Images/ColorCodedGraph.PNG, id=45, 284.5029pt x 60.34544pt>
 File: Images/ColorCodedGraph.PNG Graphic file (type png)
  <use Images/ColorCodedGraph.PNG>
-Package pdftex.def Info: Images/ColorCodedGraph.PNG used on input line 187.
+Package pdftex.def Info: Images/ColorCodedGraph.PNG used on input line 175.
 (pdftex.def)             Requested size: 277.69987pt x 58.90239pt.
- [8 <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegraph/Im
+ [9 <C:/Users/Manuel/Documents/GitHub/DifferenceGraph/Evaluation of a Visualization Component for the Differencegraph/Im
 ages/ColorCodedGraph.PNG>]
 ("C:\Users\Manuel\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph\Evalu
-ation of a Visualization Component for the Differencegraph.bbl" [9]) [10]
+ation of a Visualization Component for the Differencegraph.bbl") [10]
 ("C:\Users\Manuel\Documents\GitHub\DifferenceGraph\Evaluation of a Visualization Component for the Differencegraph\Evalu
-ation of a Visualization Component for the Differencegraph.aux")
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ation of a Visualization Component for the Differencegraph.aux") ) 
 Here is how much of TeX's memory you used:
- 1874 strings out of 493921
- 25187 string characters out of 3144874
- 82806 words of memory out of 3000000
- 5170 multiletter control sequences out of 15000+200000
+ 1879 strings out of 493921
+ 25443 string characters out of 3144874
+ 82805 words of memory out of 3000000
+ 5174 multiletter control sequences out of 15000+200000
  14360 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,9n,21p,1320b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\Manuel\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1000.p
-k> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Manuel\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.p
-k> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Manuel\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb>
-Output written on "Evaluation of a Visualization Component for the Differencegraph.pdf" (10 pages, 1488674 bytes).
+ 29i,9n,21p,1320b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti10
+00.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\Manuel\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1000.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx10
+00.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\Manuel\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Manuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx14
+40.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Evaluation of a Visualization Component for the Differencegraph.pdf" (10 pages, 2914755 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
+ 443 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

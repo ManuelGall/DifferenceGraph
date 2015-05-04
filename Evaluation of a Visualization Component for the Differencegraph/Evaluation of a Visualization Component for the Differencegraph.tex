@@ -1,12 +1,9 @@
 \documentclass{llncs}
 \usepackage{graphicx}
 \usepackage{url}
-%\usepackage[utf8]{inputenc} % Umlaute (währinger straße)
 \usepackage[T1]{fontenc}
 
 \begin{document}
-
-%\title{Evaluation of a Visualization Component for the Difference Graph}
 \title{A User Evaluation of Different Visual Representations for Visualizing Differences in Process Models}
 
 \author{Firstname Lastname \and Firstname Lastname}
@@ -18,7 +15,7 @@ Finding differences between two processes can be a complex, time consuming, and 
 \end{abstract}
 
 \begin{keywords}
-	Difference Graph, Visualization, Processes, Process Model
+	Difference Graph, Visualization, Process Differences, Process Model
 \end{keywords}
 
 \section{Introduction}
@@ -62,15 +59,15 @@ For generating the difference graph two process models are needed. These models 
 
 \begin{description}
 	\item[\textsc{New}] a node/edge is marked as \textsc{New} if the node/edge was added from $PM_1$ to $PM_2$.
-	\item[\textsc{Positively changed}] a node/edge is marked as \textsc{Positively changed} when the weight has increased from $PM_1$ to $PM_2$.
+	\item[\textsc{Increased}] a node/edge is marked as \textsc{Increased} when the weight has increased from $PM_1$ to $PM_2$.
 	\item[\textsc{Unchanged}] a node/edge is \textsc{Unchanged} if it appears in both input models (and has the same weights).
-	\item[\textsc{Negatively changed}] a node/edge is marked as \textsc{Negatively changed} when the weight has decreased in $PM_2$.
+	\item[\textsc{Decreased}] a node/edge is marked as \textsc{Decreased} when the weight has decreased in $PM_2$.
 	\item[\textsc{Deleted}] a node/edge is mark as \textsc{Deleted} if the node/edge was deleted from $PM_2$.
 \end{description}
 
 As a side note it should me emphasized that the markings are only used if the input models have weights assigned to nodes and edges.
 
-Figure~\ref{fig:DiffGraphCalculation} shows the resulting graph when the left model in Figure~\ref{fig:ProcessModels} is subtracted from the right model. For example, Node $B$ was deleted from $PM_2$ and therefore is marked as \textsc{deleted} while the weight of node $C$ has increased from 2 to 3 and thus $C$ has been marked as \textsc{Positively changed}. 
+Figure~\ref{fig:DiffGraphCalculation} shows the resulting graph when the left model in Figure~\ref{fig:ProcessModels} is subtracted from the right model. For example, Node $B$ was deleted from $PM_2$ and therefore is marked as \textsc{deleted} while the weight of node $C$ has increased from 2 to 3 and thus $C$ has been marked as \textsc{Increased}. 
 
 \begin{figure}
 	\centering
@@ -88,7 +85,7 @@ To address the research question, stated in Section 1, an online survey was cond
 
 \subsection{Literature Research} % [1/2 Page]
 \label{sec:LitResearch}
-In order to identify different visual possibilities to distinguish between different markings we conducted a literature search. Our first step was to find relevant keywords addressing the topic of difference visualization. These keywords where used within the search engines Google scholar and Microsoft academic. This led to nine paper which where used as a basis for snowballing method where on one side other relevant paper where collected and on the other side new keywords where extracted, all used keywords are shown in table \ref{table:Keywords}. Overall snowballing led to additional 22 paper. We read those 31 paper and extracted every visualization which allows five different styles. Five styles are necessary to be able to visualize each marking with an own style e.g. different colors, shapes, symbols. From all collected papers we were able to extract nine visualization approaches. Figure \ref{fig:visualizations} shows all nine approaches used in our evaluation.
+In order to identify different visual possibilities to distinguish between different markings we conducted a literature search. Our first step was to find relevant keywords addressing the topic of difference visualization. These keywords where used within the search engines Google scholar and Microsoft academic. This led to nine paper which where used as a basis for snowballing method where on one side other relevant paper where collected and on the other side new keywords where extracted, all used keywords are shown in Table~\ref{table:Keywords}. Overall snowballing led to additional 22 paper. We read those 31 paper and extracted every visualization which allows five different styles. Five styles are necessary to be able to visualize each marking with an own style e.g. different colors, shapes, symbols. From all collected papers we were able to extract nine visualization approaches. Figure~\ref{fig:visualizations} shows all nine approaches used in our evaluation.
 
 \begin{table}
 	\centering
@@ -126,7 +123,7 @@ To avoid massive scrolling and simplify navigation through the survey we used si
 
 The introduction gave an example how the difference graph is calculated and contained a question specific to this example to verify if the participant has understood the difference graph concept or not. Further questions on the introduction page asked about knowledge about graphs.  
 
-Following the introduction are questions about the visualizations themselves. Each visualization represents each of the five markings in a different way. For example, the visualization \emph{Color coding} uses the colors green, blue, black, orange, and red to distinguish between the markings. Each of this visualizations is presented on a single page which contains two questions related to the visualization. One question required the participants to rate the expressiveness of the visualization on a scale from [TODO]. The second question asked the participants to assign each visual element to the marking for which they think the element is best suited. For example, the participants had to assign a red colored node to the marking they deem most suitable for it, such as \textsc{Deleted}.
+Following the introduction are questions about the visualizations themselves. Each visualization represents each of the five markings in a different way. For example, the visualization \emph{Color coding} uses the colors green, blue, black, orange, and red to distinguish between the markings. Each of this visualizations is presented on a single page which contains two questions related to the visualization. One question required the participants to rate the expressiveness of the visualization on a five-point scale from good to poor. The second question asked the participants to assign each visual element to the marking for which they think the element is best suited. For example, the participants had to assign a red colored node to the marking they deem most suitable for it, such as \textsc{Deleted}.
 
 In the advanced/demographic section we asked the participants to rank the visualizations according to their expressiveness. In addition, participants were asked if they prefer to use the same visual representation regardless of the graph's size or if the representation should be determined by the size of the graph. On our last page participants where asked if they have worked with business processes before. Afterwards the survey concluded with demographic questions about, for example, age, gender, and employment. 
 
@@ -140,45 +137,36 @@ After finishing the two pretests the link to the survey was distributed by e-mai
 \subsection{Results and Discussion} % [2-3 Pages]
 \label{sec:Results}
 
-Our participants where spread  from 19 to 46 years. One participant was below 20 years, 11 participants where in range from 20 to 25 years, although 11 participants from 26-30, one was 36 years, three where 44 and one 46 years. Three people did not fill in their age. We had 24 men (77.4 \%), 6 women (19.4 \%) and 1 participant with no answer, participating in the survey. Overall 19 participants (61.3 \%) had worked with graphs before and 12 participants (38.7) had not. As expected a little less participants had worked with process models. From 31 participants 13 (41.9 \%) had worked with process models, 17 (54.8 \%) had not worked with process models before and one participant (3.2 \%) did not answer the question.
+Our participants where spread  from 19 to 46 years. One participant was below 20 years, 11 participants where in range from 21 to 25 years, although 11 participants from 26-30, one was 36 years, three where 44 and one 46 years. Three people did not fill in their age. We had 24 men (77.4 \%), 6 women (19.4 \%) and 1 participant (3.2 \%) with no answer, participating in the survey. Overall 19 participants (61.3 \%) had worked with graphs before and 12 participants (38.7) had not. As expected a little less participants had worked with process models. From 31 participants 13 (41.9 \%) had worked with process models, 17 (54.8 \%) had not worked with process models before and one participant (3.2 \%) did not answer the question.
 
 Before we go into details which representation should be used for the difference graph we want to show that the difference graph can be understood by novices as well as experienced persons. 61.3\% of the participants understood the concept by the very first example. Another analysis shows that 73.6\% of the participants with fundamental graph knowledge understood the example. In contrast, only 41.6\% of the participants without graph knowledge understood the example.
 
 To find the best suiting representation we analyze the intuitive understanding and the ranking for each style. The intuitive understanding is important to allow users to gain an overview of the visualization without the need to look which marking is represented by which style. The goal is to find a visualization where each style can be intuitively allocated to a marking.
 
-%Table with Mean value and Deviation 
-\begin{table}
-\centering
-\begin{tabular}{|l|l|l|l|}
-	\hline
-	Visualization & Mean value  & Max value  & Min value \\
-	\hline
-	Name & 2 & 3 & 4 \\
-	\hline  
-\end{tabular}
-\caption{Intuitive understanding}
-\label{tab:IntuitiveUnderstanding}
-\end{table}
+\begin{figure}
+	\centering
+	\includegraphics[width=350px]{Images/IntuitiveUnderstanding.PNG}
+	\caption{Intuitive understanding of all styles.}
+	\label{fig:IntUnderstanding}
+\end{figure}
 
-Table~\ref{tab:IntuitiveUnderstanding} shows a list of all visualizations in terms of intuitive understanding. On top of the list is the visualization \emph{Symbols} followed by \emph{Color coding} and \emph{Background color}. The maximum intuitive understanding possible is 31, which can only be achieved if every participant assigns the same style to the marking. Symbols range from 27 to 29 with a mean value of 27,6. For example, the green tick (Figure \ref{fig:visualizations}.5 Symbols)  was assigned by 27 participants as marking \textsc{New}. Color coding has a mean value of 25,4 and \emph{Background color} of 23,6.
+Figure~\ref{fig:IntUnderstanding} shows all visualizations in terms of intuitive understanding. The best visualization is \emph{Symbols} followed by \emph{Color coding} and \emph{Background color}. The maximum intuitive understanding possible is 31, which can only be achieved if every participant assigns the same style to the marking. Symbols range from 27 to 29 with a mean value of 27,6. For example, the green tick (Figure \ref{fig:visualizations}.5 Symbols)  was assigned by 27 participants as marking \textsc{New}. Color coding has a mean value of 24,8 and \emph{Background color} of 24,2.
+
 
 \begin{figure}
 	\centering
-	\includegraphics[width=350px]{Images/Results.PNG}
+	\includegraphics[width=350px]{Images/Ranking_Mean_StDeviation.PNG}
 	\caption{Ranking of all styles with standard deviation.}
 	\label{fig:SurveyResults}
 \end{figure}
 
-
-
-After seeing all visualization approaches the users task was to order them according to their expressiveness. The ranking was transformed into numbers best ranking counts 9 worst 1. To compare the rankings the mean-value is calculated. Figure~\ref{fig:SurveyResults} shows the mean value for all representations. As before the figure shows the representations \emph{Color coding}, \emph{Symbols} and \emph{Background color}. This time the order is different now \emph{Color coding} is on top followed by \emph{Symbols} and \emph{Background color}.
-
+After seeing all visualization approaches the users task was to order them according to their expressiveness. The ranking was transformed into numbers best ranking counts 9 worst 1. To compare the rankings the mean-value and standard deviation are calculated. Figure~\ref{fig:SurveyResults} shows the mean value for all representations as bar chart. Besides the mean value of all participants the figure although shows the mean value accumulated for people with and without graph knowledge. As before the figure shows the representations \emph{Color coding}, \emph{Symbols} and \emph{Background color} as best three. This time the order is different now \emph{Color coding} is on top followed by \emph{Symbols} and \emph{Background color}. Figure~\ref{fig:SurveyResults} although shows for each visualization the standard deviation. An interesting observation is that except from \emph{Font size} the standard deviation is lower by participants with graph knowledge then by participants without. A good example to underline this is the representation \emph{Color coding} where the deviation by participants without graph knowledge is 2.47 and 0.58 by participants with graph knowledge.
 
 Within both evaluations only three of nine visualizations are on top. \emph{Background color} was found in both evaluations on third place. Participants commented that \emph{Background color} is alike \emph{Color coding} with the hint that \emph{Color coding} is more useful then \emph{Background color}. Participants mentioned \emph{Color coding} is more pleasant to look at and more suitable for small as well as big graphs. While \emph{Background color} is not suitable for big graphs. The reason for this is \emph{Background color} only colorizes the label of a node. In big graphs finding the correct label for a node can be challenging. Therefore only the visualizations \emph{Color coding} and \emph{Symbols} are considered for further analysis.
 
 Both visualizations offer advantages over the other. For \emph{Symbols} the same negative aspect as for \emph{Background color} can be encountered. Within big graphs finding the symbol assigned to a specific edge can be challenging. One solution would be to change visualizations with the size of the graph. Our evaluation showed that only 29\% of the participants recommend to change the visualization with the graphs size.
 
-We consider \emph{Color coding} as the best visualization. The visualization offers a good intuitive understanding, scored best in the overall ranking and is suitable for small and big graphs. As commented by our participants we recommend using a legend to show which color represents which marking.
+We consider \emph{Color coding} as the best visualization. The visualization offers a good intuitive understanding, scored best in the overall ranking and is suitable for small and big graphs. The standard deviation in the overall ranking shows that participants with graph knowledge had a common understanding. As commented by our participants we recommend using a legend to show which color represents which marking.
 
 Figure~\ref{fig:DiffGraphVisualization} shows an example how the final representation can look. The figure shows the graph which was calculated in the previous example with applied color coding.
 

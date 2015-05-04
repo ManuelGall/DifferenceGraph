@@ -1,0 +1,30 @@
+
+%Table with Mean values for intuitive understanding
+\begin{table}
+\centering
+\begin{tabular}{|l|l|l|l|}
+	\hline
+	Visualization & Mean value  & Min value  & Max value \\
+	\hline
+	Grayscale & 20.4 & 19 & 22 \\
+	\hline  
+	Fontsize & 17.4 & 15 & 22 \\
+	\hline  
+	Edgewidth & 16.8 & 13 & 20 \\
+	\hline  
+	EdgeStyle & 9 & 8 & 10 \\
+	\hline  
+	Symbols & 27.6 & 27 & 29 \\
+	\hline  
+	Background Color & 24.2 & 21 & 29 \\
+	\hline  
+	Color coding & 24.8 & 22 & 27 \\
+	\hline  
+	Edge head style & 11.75 & 9 & 16 \\
+	\hline  
+	Node style & 12.6 & 8 & 22 \\
+	\hline  
+\end{tabular}
+\caption{Intuitive understanding}
+\label{tab:IntuitiveUnderstanding}
+\end{table}
